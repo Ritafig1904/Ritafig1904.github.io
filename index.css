@@ -5,6 +5,8 @@
 }
 
 body{
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-color:rgb(247, 146, 106);
     height: 100vh;
 }
@@ -22,7 +24,7 @@ body{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color:rgb(241, 98, 42);
+    background-color:rgb(255, 255, 255);
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -31,13 +33,13 @@ body{
 
 .btn-contact button:hover{
     transform: scale(1.05);
-    box-shadow:0px 0px 8px rgba(241, 98, 42, 0.703);
+    box-shadow:0px 0px 8px #fff;
 
 }
 
 header .interface i{
     font-size: 80px;
-    color:rgb(241, 98, 42);
+    color:rgb(255, 255, 255);
     box-shadow: 0 0 15px #ffffff17;
     border-radius: 60px;
 }
@@ -73,7 +75,7 @@ header nav ul li{
 }
 
 header .btn-contact button :hover{
-    box-shadow:0px 0px 8px rgba(241, 98, 42, 0.703);
+    box-shadow:0px 0px 8px rgba(255, 255, 255, 0.703);
 }
 
 section.topo-do-site{
@@ -135,10 +137,13 @@ h2.titulo span{
 
 .especialidades .especialidades-box{
     color: #fff;
-    padding: 120px;
-    margin-top: 25px;
+    padding: 40px;
+    margin-top: 30px;
     border-radius: 20px;
     transition: .3s;
+  background-color: rgb(241, 98, 42);
+  background-repeat: no-repeat;
+  align-items: center;
 }
 
 .especialidades .especialidades-box:hover{
@@ -148,7 +153,7 @@ h2.titulo span{
 
 .especialidades .especialidades-box i{
     font-size: 52px;
-    color:rgb(241, 98, 42);
+    color:rgb(255, 255, 255);
 }
 
 .especialidades .especialidades-box h3{
@@ -156,3 +161,12 @@ h2.titulo span{
     color: #fff;
     margin: 15px 0;
 }
+
+.especialidades .especialidades-box p{
+    font-size: 14px;
+    color: #fff;
+    margin: 15px 0;
+    align-items: center;
+}
+
+
