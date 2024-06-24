@@ -29,7 +29,10 @@ body{
     border-radius: 30px;
     cursor: pointer;
     transition: 2s;
+    color: rgb(241, 98, 42);
+    cursor: pointer;
 }
+
 
 .btn-contact button:hover{
     transform: scale(1.05);
@@ -139,6 +142,7 @@ h2.titulo span{
     color: #fff;
     padding: 40px;
     margin-top: 30px;
+    margin-bottom: 20px;
     border-radius: 20px;
     transition: .3s;
   background-color: rgb(241, 98, 42);
@@ -165,8 +169,125 @@ h2.titulo span{
 .especialidades .especialidades-box p{
     font-size: 14px;
     color: #fff;
-    margin: 15px 0;
+    margin: 15px ;
     align-items: center;
 }
 
+table 
+{
+  width: 50%;
+  margin-left: 300px;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
 
+th, td 
+{
+  padding: 0.5em;
+  text-align: center;
+}
+
+th 
+{
+  background-color:rgb(241, 98, 42);
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.8em;
+}
+
+td 
+{
+  background-color: lightgray;
+  font-size: 1.1em;
+}
+
+td:hover 
+{
+  background-color: lightcyan;
+}
+
+figure 
+{
+  width: 20%;
+  float: left;
+  margin-top: 2%;
+  margin-left: 4%;
+  margin-bottom: 6%;
+  
+}
+
+figure hreaf{
+    color:#fff
+}
+figure img 
+{
+  background-color: lightblue;
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+}
+
+
+figure:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #504d4d8c;
+    transition: .3s;
+}
+
+.overlay h3{
+    text-align: center;
+   color:  rgb(241, 98, 42);
+}
+
+section.contact{
+    padding: 80px 4%;
+}
+
+form{
+    max-width: 200px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input{
+    width: 100;
+    margin-top: 10px;
+    background-color:rgb(252, 252, 252);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 10px;
+}
+
+form textarea{
+        width: 100;
+        margin-top: 10px;
+        background-color:rgb(252, 252, 252);
+        border: 0;
+        outline: 0;
+        padding: 20px 15px;
+        border-radius: 10px;
+        resize: none;
+        max-width: 200px;
+}
+
+form .btn-enviar{
+    margin-top: 10px;
+   text-align: center;
+}
+
+form .btn-enviar input{
+    width: 120px;
+    background-color: rgb(241, 98, 42);
+    color:#fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+form .btn-enviar input:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #504d4d8c;
+    transition: .6s;
+}

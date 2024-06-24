@@ -11,80 +11,160 @@
 
 <header>
     <div class="interface">
-      <div>
-        <a href="#">
-            <i class="bi bi-fan"></i>
-        </a>
-      </div><!--logo-->
-     
-      <nav class="menu-desktop">
-        <ul>
-            <li> <a href="">Home</a></li>
-            <li> <a href="">Specialties</a></li>
-            <li> <a href="">About</a></li>
-            <li> <a href="">Works</a></li>
-        </ul>
+        <div>
+            <a href="#">
+                <i class="bi bi-fan"></i>
+            </a>
+        </div><!--logo-->
 
-      </nav>
+        <nav class="menu-desktop">
+            <ul>
+                <li><a href="#topo">About</a></li>
+                <li><a href="#especialidades">Specialties</a></li>
+                <li><a href="#works">Works</a></li>
+            </ul>
+        </nav>
 
-      <div class="btn-contact"> 
-        <a href="#">
-            <button>CONTACT</button>
-        </a>
-      </div><!--btn-contact-->
-
+        <div class="btn-contact"> 
+            <a href="#contact">
+                <button>CONTACT</button>
+            </a>
+        </div><!--btn-contact-->
     </div><!--interface-->
 </header>
 
 <main>
-  <section class="topo-do-site">
-    <div class="interface">
-        <div class="flex">
-          <div class="txt-topo-site"  >
-            <h1>BRINGING IDEAS TO LIFE<span>!</span></h1>
-            <p>Each project is an opportunity for me to turn your vision into a masterpiece. With a focus on detail and innovation, I bring your dreams to life.</p>
+    <section class="topo-do-site" id="topo">
+        <div class="interface">
+            <div class="flex">
+                <div class="txt-topo-site">
+                    <h1>HI, I´M RITA FIGUEIREDO<span>!!</span></h1>
+                    <p>I am passionate about digital media, communication, and tourism. Creative and innovative, I excel in interpersonal relationships and enjoy teamwork. I love participating in volunteer projects, especially those involving direct interaction with people.</p>
+                    <div class="btn-contact">
+                        <a href="https://www.linkedin.com/in/rita-figueiredo-5437a4289/" target="_blank">
+                            <button>LEARN MORE (CV)</button>
+                        </a>
+                    </div>
+                </div> <!--txt-topo-site-->
 
-            <div class="btn-contact">
-              <a href="https://www.linkedin.com/in/rita-figueiredo-5437a4289/" target="_blank">
-                    <button>Curriculo</button>
-               </a>    
-
+                <div>
+                    <img class="img-topo-site" src="imagens/foto eu.png" alt="Foto">
+                </div>
             </div>
-          </div> <!--txt-topo-site-->
-
-          <div>
-            <img class="img-topo-site" src="imagens/foto eu.png" alt="Foto">
-          </div>
         </div>
-    </div>
-  </section>  
+    </section>  
 
-  <section class="especialidades">
-    <div class="interface">
-        <h2 class="titulo">MY <SPAN>SPECIALTIES.</SPAN></h2>
-        <div class="flex">
+    <section class="especialidades" id="especialidades">
+        <div class="interface">
+            <h2 class="titulo">MY <SPAN>SPECIALTIES.</SPAN></h2>
+            <div class="flex">
+                <div class="especialidades-box" id="Illustration">
+                    <i class="bi bi-brush"></i>
+                    <h3>Illustration</h3>
+                    <p>My illustrations blend creativity and technique, capturing emotions and telling unique stories. I use both traditional drawing and digital art to bring my ideas to life.</p>
+                </div><!--especialidades-box-->
 
-       <div class="especialidades-box" id="Illustration">
-        <i class="bi bi-brush"></i>
-        <h3>Illustration</h3>
-        <p> My illustrations blend creativity and technique, capturing emotions and telling unique stories. I use both traditional drawing and digital art to bring my ideas to life.</p>
-         </div><!--especialidades-box-->
+                <div class="especialidades-box">
+                    <i class="bi bi-camera"></i>
+                    <h3>Photography</h3>
+                    <p>My photographs blend creativity and technique, capturing unique and exciting moments. I use various techniques to highlight the beauty and emotion in each scene.</p>
+                </div><!--especialidades-box-->
 
-       <div class="especialidades-box">
-        <i class="bi bi-camera"></i>
-        <h3>Photography</h3>
-        <p>My photographs blend creativity and technique, capturing unique and exciting moments. I use various techniques to highlight the beauty and emotion in each scene.</p>
-        </div><!--especialidades-box-->
+                <div class="especialidades-box">
+                    <i class="bi bi-laptop"></i>
+                    <h3>Design</h3>
+                    <p>My designs blend creativity and technique, creating unique and engaging visual projects. I use various tools to highlight the functionality and aesthetics of each work.</p>
+                </div><!--especialidades-box-->
+            </div><!--flex-->
+        </div>
+    </section>  
 
-       <div class="especialidades-box">
-        <i class="bi bi-laptop"></i>
-        <h3>Design</h3>
-        <p> My designs blend creativity and technique, creating unique and engaging visual projects. I use various tools to highlight the functionality and aesthetics of each work.</p>
-       </div><!--especialidades-box-->
-        </div><!--flex-->
-    </div><!--interface-->
-  </section>
+    <table>
+        <thead>
+            <tr>
+                <th>Programs</th>
+                <th>Level</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Adobe Illustrator</td>
+                <td rowspan="2">4</td>
+            </tr>
+            <tr>
+                <td>Adobe Lightroom</td>
+            </tr>
+            <tr>
+                <td>Adobe Photoshop</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Adobe Indesign</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <section class="works" id="works">
+        <div class="interface">
+            <h2 class="titulo">MY <SPAN>WORKS.</SPAN></h2>
+            <div class="worklist">
+                <figure> 
+                  <a href="Project1.html">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/240px-CSS3_logo_and_wordmark.svg.png" alt="CSS 3 logo"/>
+                    <div class="overlay">
+                        <h3>Photography</h3>
+                    </div>
+                  </a>
+                    
+                </figure>
+                <figure>
+                  <a href="Project2.html">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/240px-CSS3_logo_and_wordmark.svg.png" alt="CSS 3 logo"/>
+                    <div class="overlay">
+                        <h3>Photography</h3>
+                    </div>
+                  </a>
+                    
+                </figure>
+                <figure>
+                  <a href="Project3.html">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/240px-CSS3_logo_and_wordmark.svg.png" alt="CSS 3 logo"/>
+                    <div class="overlay">
+                        <h3>Photography</h3>
+                    </div>
+                  </a>
+                    
+                </figure>
+                <figure>
+                  <a href="Project4.html">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/240px-CSS3_logo_and_wordmark.svg.png" alt="CSS 3 logo"/>
+                    <div class="overlay">
+                        <h3>Photography</h3>
+                    </div>
+                  </a>
+                
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="interface">
+            <h2 class="titulo">TALK <SPAN>WITH ME.</SPAN></h2>
+            <form action="">
+                <input type="tel" name="" id="" placeholder="Your Name">
+                <input type="tel" name="" id="" placeholder="Your Email">
+                <input type="tel" name="" id="" placeholder="Your Phone Number">
+                <textarea name="" id="" placeholder="Your Message"></textarea>
+                <div class="btn-enviar"><input type="submit" value="SEND"></div>
+            </form>
+        </div>
+    </section>
 </main>
+
+<footer>
+</footer>
 
 </body>
 </html>
