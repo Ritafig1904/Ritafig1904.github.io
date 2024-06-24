@@ -20,6 +20,10 @@ body{
     display: flex;
 }
 
+a{
+    color: rgb(241, 98, 42);
+}
+
 .btn-contact button{
     padding: 10px 40px;
     font-size: 18px;
@@ -133,6 +137,7 @@ h2.titulo{
     color: #fff;
     font-size: 30px;
     text-align: center;
+    margin-left: 10px;
 }
 h2.titulo span{
     color:rgb(241, 98, 42);
@@ -217,9 +222,7 @@ figure
   
 }
 
-figure hreaf{
-    color:#fff
-}
+
 figure img 
 {
   background-color: lightblue;
@@ -290,4 +293,8 @@ form .btn-enviar input:hover{
     transform: scale(1.05);
     box-shadow: 0 0 15px #504d4d8c;
     transition: .6s;
+}
+
+.interface h2{
+    text-align: center;
 }
